@@ -5,7 +5,7 @@ import "../styles/Category.css";
 const Category = ({ imageSrc, text }) => (
   <div
     className="container23"
-    style={{ display: "inline-block", margin: "35px" }}
+    style={{ display: "inline-block", margin: "37.5px" }}
   >
     <img src={imageSrc} alt={text} className="image23" />
     <div className="overlay34">
