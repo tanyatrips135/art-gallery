@@ -1,0 +1,55 @@
+.artistcontainer {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.artistgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 404px;
+}
+
+.artistcard {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artistcard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.artistcard h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.artistcard a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.artistcard a:hover {
+  color: #007bff;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  color: #007bff;
+}

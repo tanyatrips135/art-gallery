@@ -1,0 +1,73 @@
+.art-shop {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.artworks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.art-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.art-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.art-card h3 {
+  margin: 10px 0;
+}
+
+.art-card button {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.art-card button:hover {
+  background-color: #1abc9c;
+}
+
+.cart {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #c0392b;
+}
