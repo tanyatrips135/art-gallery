@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "6739c5e864dab86d192c69dc"
+  },
+  "name": "Sarah Chen",
+  "age": 34,
+  "bio": "Contemporary abstract expressionist based in San Francisco, known for her bold use of color and dynamic compositions",
+  "artworks": [
+    {
+      "title": "Urban Symphony",
+      "year": 2023,
+      "medium": "Oil on canvas",
+      "dimensions": "48 x 60 inches",
+      "price": 5800,
+      "image": "urban-symphony.jpg"
+    },
+    {
+      "title": "Coastal Dreams",
+      "year": 2024,
+      "medium": "Mixed media",
+      "dimensions": "36 x 48 inches",
+      "price": 4200,
+      "image": "coastal-dreams.jpg"
+    },
+    {
+      "title": "Neon Nights",
+      "year": 2023,
+      "medium": "Acrylic and neon",
+      "dimensions": "40 x 40 inches",
+      "price": 6500,
+      "image": "neon-nights.jpg"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@sarahchenart",
+    "twitter": "@chen_creates",
+    "website": "www.sarahchenart.com"
+  },
+  "accolades": [
+    "Featured in Artforum Magazine 2023",
+    "Winner, Bay Area Emerging Artist Award 2022",
+    "Artist Residency at SFMOMA 2021"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739c5e864dab86d192c69dd"
+  },
+  "name": "Marcus Rivera",
+  "age": 45,
+  "bio": "Sculptor and installation artist specializing in sustainable materials and environmental themes",
+  "artworks": [
+    {
+      "title": "Ocean's Memory",
+      "year": 2024,
+      "medium": "Recycled plastics and steel",
+      "dimensions": "96 x 72 x 48 inches",
+      "price": 12000,
+      "image": "oceans-memory.jpg"
+    },
+    {
+      "title": "Forest Echo",
+      "year": 2023,
+      "medium": "Reclaimed wood and glass",
+      "dimensions": "120 x 84 inches",
+      "price": 15000,
+      "image": "forest-echo.jpg"
+    },
+    {
+      "title": "Urban Growth",
+      "year": 2023,
+      "medium": "Mixed media installation",
+      "dimensions": "Site-specific",
+      "price": 18000,
+      "image": "urban-growth.jpg"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@rivera_sculptures",
+    "linkedin": "marcus-rivera-art",
+    "website": "www.marcusriveraart.com"
+  },
+  "accolades": [
+    "Environmental Art Grant recipient 2023",
+    "Featured in Sculpture Magazine",
+    "Public Art Commission, Chicago 2022"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739c5e864dab86d192c69de"
+  },
+  "name": "Emma Blackwood",
+  "age": 29,
+  "bio": "Digital artist and photographer exploring the intersection of technology and nature",
+  "artworks": [
+    {
+      "title": "Digital Bloom",
+      "year": 2024,
+      "medium": "Digital art on LED display",
+      "dimensions": "55 inches",
+      "price": 3800,
+      "image": "digital-bloom.jpg"
+    },
+    {
+      "title": "Binary Forest",
+      "year": 2023,
+      "medium": "Photography with AR elements",
+      "dimensions": "40 x 60 inches",
+      "price": 2500,
+      "image": "binary-forest.jpg"
+    },
+    {
+      "title": "Quantum Garden",
+      "year": 2023,
+      "medium": "Interactive digital installation",
+      "dimensions": "Variable",
+      "price": 8000,
+      "image": "quantum-garden.jpg"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@emma.digital",
+    "behance": "emmablackwood",
+    "website": "www.emmablackwood.art"
+  },
+  "accolades": [
+    "Digital Art Award 2023, London",
+    "Featured in Wired Magazine",
+    "TED Talk speaker on Digital Art, 2022"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739c5e864dab86d192c69df"
+  },
+  "name": "James Kim",
+  "age": 52,
+  "bio": "Traditional Korean ink painter merging classical techniques with contemporary themes",
+  "artworks": [
+    {
+      "title": "Mountain Whispers",
+      "year": 2024,
+      "medium": "Ink and watercolor on hanji",
+      "dimensions": "72 x 36 inches",
+      "price": 9500,
+      "image": "mountain-whispers.jpg"
+    },
+    {
+      "title": "Urban Landscapes",
+      "year": 2023,
+      "medium": "Ink on rice paper",
+      "dimensions": "48 x 24 inches",
+      "price": 7200,
+      "image": "urban-landscapes.jpg"
+    },
+    {
+      "title": "Ancestral Dreams",
+      "year": 2023,
+      "medium": "Mixed media on hanji",
+      "dimensions": "60 x 30 inches",
+      "price": 8500,
+      "image": "ancestral-dreams.jpg"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@kimink_art",
+    "facebook": "JamesKimArt",
+    "website": "www.jameskimart.com"
+  },
+  "accolades": [
+    "Asian Art Museum Artist of the Year 2023",
+    "Featured in Traditional Arts Quarterly",
+    "Solo Exhibition at National Museum of Korea"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739c5e864dab86d192c69e0"
+  },
+  "name": "Isabel Medina",
+  "age": 38,
+  "bio": "Mixed media artist focusing on cultural identity and immigration narratives",
+  "artworks": [
+    {
+      "title": "Borders of Memory",
+      "year": 2024,
+      "medium": "Textiles and mixed media",
+      "dimensions": "84 x 96 inches",
+      "price": 11000,
+      "image": "borders-memory.jpg"
+    },
+    {
+      "title": "Heritage Threads",
+      "year": 2023,
+      "medium": "Embroidery and photography",
+      "dimensions": "48 x 48 inches",
+      "price": 6800,
+      "image": "heritage-threads.jpg"
+    },
+    {
+      "title": "Mother's Land",
+      "year": 2023,
+      "medium": "Mixed media installation",
+      "dimensions": "Variable",
+      "price": 9500,
+      "image": "mothers-land.jpg"
+    }
+  ],
+  "socialMedia": {
+    "instagram": "@isabelmedina_art",
+    "twitter": "@imedinacreates",
+    "website": "www.isabelmedinastudio.com"
+  },
+  "accolades": [
+    "Guggenheim Fellowship 2023",
+    "Featured in ArtNews",
+    "Whitney Museum Biennial Artist 2022"
+  ]
+}]

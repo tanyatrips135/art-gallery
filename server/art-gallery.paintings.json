@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6739d8cc64dab86d192c69e3"
+  },
+  "artist": "davinci",
+  "paintings": [
+    "Mona-Lisa-oil-wood-panel-Leonardo-da.png",
+    "salvatore_mundi_davinci.png",
+    "the_lady_with_an_ermine.png",
+    "the_last_supper_davinci.png"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739d9c664dab86d192c69e4"
+  },
+  "artist": "monet",
+  "paintings": [
+    "Boulevard_des_Capucines_by_Claude_Oscar_Monet.png",
+    "Impression_Sunrise_by_Claude_Monet.png",
+    "Sailboat_at_Le_Petit-Gennevilliers_by_Claude_Oscar_Monet.png",
+    "the_artists_garden_at_giverny.png",
+    "water_lillies_monet.png"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739d9f164dab86d192c69e5"
+  },
+  "artist": "picasso",
+  "paintings": [
+    "girl_before_a_mirror_picasso.png",
+    "guernica_picasso.png",
+    "the_old_guitarist_picasso.png"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739da2464dab86d192c69e6"
+  },
+  "artist": "vangogh",
+  "paintings": [
+    "Branches_with_Almond_Blossom_by_Vincent_van_Gogh.png",
+    "Fishing_boats_on_the_Beach_at_Les_Saintes-Maries-de-la-Mer_by_Vincent_van_Gogh.png",
+    "irises_vangogh.png",
+    "starry_night_vincent_vangogh.png"
+  ]
+}]
