@@ -10,36 +10,42 @@ const ArtShop = () => {
       title: "Starry Night",
       price: 2300,
       image: "/vangogh/paintings/starry_night_vincent_vangogh.png",
+      artist: "Vincent van Gogh",
     },
     {
       id: 2,
       title: "The Swing",
       price: 1500,
       image: "/The_Swing_by_Jean-Honore_Fragonard.png",
+      artist: "Jean-Honore Fragonard",
     },
     {
       id: 3,
       title: "The Scream",
       price: 2000,
       image: "/The_Scream_by_Edvard_Munch.png",
+      artist: "Edvard Munch",
     },
     {
       id: 4,
       title: "View of Toledo",
       price: 1400,
       image: "/View_of_Toledo_by_El_Greco.png",
+      artist: "El Greco",
     },
     {
       id: 5,
       title: "A Cotton Office in New Orleans",
       price: 1000,
       image: "/A_Cotton_Office_In_New_Orleans_Edgar_Degas.png",
+      artist: "Edgar Degas",
     },
     {
       id: 6,
       title: "Among the Ruins",
       price: 1100,
       image: "/Among_the_Ruins_by_Sir_Lawrence_Alma-Tadema.png",
+      artist: "Sir Lawrence Alma-Tadema",
     },
   ];
 
@@ -59,6 +65,7 @@ const ArtShop = () => {
           <div key={artwork.id} className="art-card">
             <img src={artwork.image} alt={artwork.title} />
             <h3>{artwork.title}</h3>
+	          <p><i>{artwork.artist}</i></p>
             <p>${artwork.price}</p>
             <button onClick={() => addToCart(artwork)}>Add to Cart</button>
           </div>
