@@ -111,6 +111,53 @@ app.post("/api/applications", async (req, res) => {
   }
 });
 
+// Shopping Cart APIs
+
+// GET all items in the cart
+app.get("/api/cart", async (req, res) => {
+  try {
+    const database = client.db("art-gallery");
+    const cartCollection = database.collection("cart");
+    const cartItems = await cartCollection.find().toArray();
+    res.json(cartItems);
+  } catch (err) {
+    console.error("Error fetching cart items:", err);
+    res.status(500).json({ error: "Failed to fetch cart items" });
+  }
+});
+
+// ADD an item to the cart
+app.post("/api/cart", async (req, res) => {
+  try {
+    const database = client.db("art-gallery");
+    const cartCollection = database.collection("cart");
+
+    const item = req.body; // Expects an object with artwork details
+    const result = await cartCollection.insertOne(item);
+    res.status(201).json({ message: "Item added to cart", id: result.insertedId });
+  } catch (err) {
+    console.error("Error adding item to cart:", err);
+    res.status(500).json({ error: "Failed to add item to cart" });
+  }
+});
+
+// REMOVE an item from the cart
+app.delete("/api/cart/:id", async (req, res) => {
+  try {
+    const database = client.db("art-gallery");
+    const cartCollection = database.collection("cart");
+
+    const result = await cartCollection.deleteOne({ _id: new ObjectId(req.params.id) });
+    if (result.deletedCount === 0) {
+      return res.status(404).json({ error: "Item not found in cart" });
+    }
+    res.json({ message: "Item removed from cart" });
+  } catch (err) {
+    console.error("Error removing item from cart:", err);
+    res.status(500).json({ error: "Failed to remove item from cart" });
+  }
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
