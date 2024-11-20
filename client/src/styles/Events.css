@@ -20,8 +20,9 @@
 
 .eventcard {
   border-radius: 8px;
+  border: 1px solid #846c5c;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.3s ease;
 }
 

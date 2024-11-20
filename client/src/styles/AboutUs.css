@@ -203,36 +203,11 @@ body {
 }
 
 .contact-item svg {
-  color: #846c5c;
+  color: #666;
 }
 
-.contact-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 15px;
-  max-width: 500px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-  width: 100%;
-}
-
-.contact-form button {
-  padding: 15px;
-  background-color: #846c5c;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.contact-item a {
+  color: #666;
 }
 
 .contact-form button:hover {

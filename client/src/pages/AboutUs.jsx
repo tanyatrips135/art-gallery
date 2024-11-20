@@ -145,7 +145,9 @@ const AboutUs = () => {
           <div className="contact-info">
             <div className="contact-item">
               <Mail />
-              <span>contact@arteza.com</span>
+              <span>
+                <a href="mailto:contact@arteza.com">contact@arteza.com</a>
+              </span>
             </div>
             <div className="contact-item">
               <Phone />
@@ -153,7 +155,7 @@ const AboutUs = () => {
             </div>
             <div className="contact-item">
               <MapPin />
-              <span>123 Art Street, Creative District, NY 10001</span>
+              <span>56 Design Avenue, Innovation Park, Bengaluru 560001</span>
             </div>
             <br />
           </div>
